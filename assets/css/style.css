@@ -215,7 +215,14 @@ h3, h2 {
   }
 
   nav {
-    padding-right: 20%; 
+    padding-right: 30%; 
+    padding-left: 5%;
+  }
+  .auth-image {
+    margin-right: 50%;
+    /* max-width: 500px;
+    width: 500px;
+    height: 500px; */
   }
 
   #main-container {
@@ -224,7 +231,7 @@ h3, h2 {
   }
 }
 
-@media only screen and (min-width: 641px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 641px) {
   #logo {  
     margin-left:5%;    
    } 
@@ -243,7 +250,7 @@ h3, h2 {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 980px) {
+@media only screen and (max-width: 980px) and (min-width: 769px){
   #logo {  
    margin-left:5%;   
   } 

@@ -213,8 +213,10 @@ h3, h2 {
   }
 
   nav {
-    padding-right: 25%; 
-    padding-left: 5%;
+    float:none;
+    text-align: center;
+    /* padding-right: 25%; 
+    padding-left: 5%; */
   }
 
   .auth-image {

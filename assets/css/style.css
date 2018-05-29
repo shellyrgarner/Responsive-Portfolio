@@ -110,12 +110,12 @@ h3, h2 {
   }
   
   
-#main-container {
+#main-container, #port-container, #form-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
 }
   
-.main-section {
+.main-section, .port-section, .form-section {
     float: left;
     width: 100%;
     max-width: 960px;
@@ -203,8 +203,6 @@ h3, h2 {
     background: #4aaaa5;
     border: 0 none;
   }
-
-
 @media only screen and (max-width: 640px) {
   header {
     position: static;
@@ -215,11 +213,13 @@ h3, h2 {
   }
 
   nav {
-    padding-right: 30%; 
+    padding-right: 25%; 
     padding-left: 5%;
   }
+
   .auth-image {
     margin-right: 50%;
+    /* width: 100%; */
     /* max-width: 500px;
     width: 500px;
     height: 500px; */
@@ -228,10 +228,27 @@ h3, h2 {
   #main-container {
     padding-top: 30%;  
     max-width: 500px;
-  }
-}
+  }   
 
-@media only screen and (max-width: 768px) and (min-width: 641px) {
+  #port-container {  
+    padding-top: 35%;  
+    max-width: 450px;
+    padding-right: 0%;
+  }
+  
+  .port-section {
+    max-width: 450px;
+ } 
+ 
+ #form-container {
+  padding-top: 30%; 
+  max-width: 500px;
+  padding-bottom: 20%; 
+  
+}
+ 
+} 
+@media only screen and (min-width: 641px) and (max-width: 768px)  {
   #logo {  
     margin-left:5%;    
    } 
@@ -245,12 +262,36 @@ h3, h2 {
     max-width: 650px;
   }
 
-  /* .main-section {
-    background-color: #4aaaa5;
-  } */
-}
+  #port-container {  
+    padding-top: 15%;  
+    max-width: 650px;
+  }
 
-@media only screen and (max-width: 980px) and (min-width: 769px){
+  .port-section {
+    background-color: #4aaaa5;
+  }   
+
+  /* .work { 
+    margin: 20px 0 25px;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 20px;
+  } 
+  
+  .work img {    
+    margin-right: 0%;
+  }  */
+  
+  #form-container {
+    padding-top: 15%; 
+    max-width: 650px; 
+    margin-left: 5%; 
+  }
+  
+} 
+
+@media only screen and (min-width: 769px) and  (max-width: 980px) {
   #logo {  
    margin-left:5%;   
   } 
@@ -259,14 +300,36 @@ h3, h2 {
     padding-right: 5%; 
   }
   
-  /* .main-section {
-    background-color: #800000;
-  */
+  /* .port-section {
+    background-color: #800000; 
+  }  */
 
-  #main-container {
+  #main-container {  
     padding-top: 15%;  
-    max-width: 550px; 
-    margin-right: 66%;
+    max-width: 450px; 
+    margin-right: 86%;
     margin-left: 5%;
   }
+
+  #port-container {  
+    padding-top: 15%;  
+    max-width: 650px; 
+    margin-right: 86%;
+    margin-left: 5%;
+
+  }
+  #form-container {
+    padding-top: 15%; 
+    max-width: 450px; 
+    /* margin-right: 86%; */
+    margin-left: 5%; 
+  }
+
+  /* #contact-form ul, li {
+    max-height: 100px;
+
+  } */
+  /* textarea {
+    height: 100px;
+  } */
 }

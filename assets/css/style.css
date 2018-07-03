@@ -142,6 +142,7 @@ h3, h2 {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+  height: 300px;
   }
   
   .work h3 {
@@ -203,6 +204,11 @@ h3, h2 {
     background: #4aaaa5;
     border: 0 none;
   }
+  .img {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+}
 @media only screen and (max-width: 640px) {
   header {
     position: static;
@@ -247,6 +253,12 @@ h3, h2 {
   padding-bottom: 20%; 
   
 }
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+height: 100%;
+}
  
 } 
 @media only screen and (min-width: 641px) and (max-width: 768px)  {
@@ -290,6 +302,13 @@ h3, h2 {
     margin-left: 5%; 
   }
   
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  height: 100%;
+  }
+
 } 
 
 @media only screen and (min-width: 769px) and  (max-width: 980px) {
@@ -333,4 +352,11 @@ h3, h2 {
   /* textarea {
     height: 100px;
   } */
+
+   .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  height: 100%;
+  }
 }
